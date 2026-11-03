@@ -1,15 +1,3 @@
-"""
-Лабораторна робота №3. Евристичний пошук та інтелектуальні агенти.
-Власне Pac-Man-подібне лабіринтне середовище (без ресурсів комерційної гри).
-
-Запуск:
-  python pacman_lab3.py              гра, етап 4 (останній крок)
-  python pacman_lab3.py 3            гра, етап 3 (останній крок)
-  python pacman_lab3.py 4.2          гра, етап 4, крок ускладнення 2
-  python pacman_lab3.py bench [N]    серія експериментів (N епізодів, типово 50) -> results.csv
-  python pacman_lab3.py demo 4.2 [astar|bfs] [seed] [greedy|runner] [--plain] [--frames a-b]
-                                     відтворювана демонстрація з автоматичним гравцем
-"""
 import os
 import sys
 import time
